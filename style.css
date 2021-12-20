@@ -17,16 +17,14 @@
   padding: 0;
 }
 
-body {
-  height: 100vh;
-}
-
 .img-fluid{
   display: flex;
   justify-content: center;
 }
 
 #logo {
+  display: flex;
+  justify-content: center;
   padding-top: 20px;
   margin: auto;
 }
@@ -40,10 +38,10 @@ a.nav-link {
   justify-content: center;
 }
 
-.container-fluid {
+/* .container-fluid {
   width: 1920px;
   height: 800px;
-}
+} */
 
 
 p {
@@ -135,6 +133,24 @@ hr {
 }
 
 
+/* Page Catalogue */
+
+
+
+#catalogue {
+  object-fit: contain;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#catalogue2 {
+  height: 800px;
+  width: 100%;
+  display: block;
+  margin: 50px;
+} 
 
 
 
