@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap%27%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap%27%27');
 
-#3E3E3D
-#22B1B2
-#F7C9CE
-#FDF5F0
-#F5B4AE
-#E0AF91
+/*#3E3E3D*/
+/*#22B1B2*/
+/*#F7C9CE*/
+/*#FDF5F0*/
+/*#F5B4AE*/
+/*#E0AF91*/
 
 
 *{
@@ -40,10 +40,10 @@ a.nav-link {
   justify-content: center;
 }
 
-.container-fluid {
-  width: 1920px;
-  height: 800px;
-}
+/*.container-fluid {*/
+/*  width: 1920px;*/
+/*  height: 800px;*/
+/*}*/
 
 
 p {
@@ -134,10 +134,32 @@ hr {
   
 }
 
+.bg {
+  /* The image used */
+  background-image: url("img/PAGE ACCUEIL/KIT RASAGE.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
+@media (max-width: 660px) {
+  .rasage h1{
+    font-size: 30px;
+  }
+}
 
 
+@media (max-width: 390px) {
+  .rasage h1{
+    font-size: 25px;
+  }
+}
 
 
 
