@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Tout notre catalogue</title>
 </head>
 <body>
@@ -43,22 +43,119 @@
           </li>
         </ul>
       </div>
-    
-  </nav>
-
-  <div class="container-fluid" style="background-color: #FDF5F0">
-    <div class=" row position relative">
-      <h1 class="catalogue text-center position-absolute">Tout notre catalogue</h1>
-      <img class="img-fluid"src="img/PAGE TROUSSES/Illu_catalogue.png" alt="">
-    </div>
+    </nav>
+    <div class="section-1">
+      <img src="img/PAGE TROUSSES/Illu_catalogue.png" class="img-fluid" id="illucatalogue" alt="">
+      <h1>Tout notre catalogue</h1>
   </div>
-  <img class="img-fluid" src="img/PAGE TROUSSES/Bandeau_couleurs.png" alt="">
-  <div class="container-fluid">
-    <img class="img-fluid" id="catalogue2" src="img/PAGE TROUSSES/Illus_catalogue2.png" alt="" >
-    <div class="row">
-
-    </div>
+  <div class="section-1-homebutton-container">
+      <a href="index.html" class="section-1-homebutton">
+          <img src="img/icon-accueil.svg" id="arrow" alt="">
+          <p id="homebutton-title">ACCUEIL</p>
+      </a>
   </div>
+  <img src="img/PAGE TROUSSES/Bandeau_couleurs.png" id="colorband" alt="">
+
+  <!-- deuxieme partie -->
+
+  <div class="container-fluid section-2">
+      <img src="img/PAGE TROUSSES/Illus_catalogue2.png" id="illucatalogue2" alt="">
+      <div class="section-2-content">
+          <h1>Notre catalogue</h1>
+          <div class="ligne-section"></div>
+          <p class="section-2-paragraph">Adequate dispose egalement d'une offre plethorique de mini-produits
+              d'hygiene pour ceux qui n'ont pas
+              de distributeurs automatiques</p>
+          <div class="category">
+              <div class="hygiene">
+                  <a href="#" class="category-button">Hygiene</a>
+                  <div class="category-list-items">
+                      <p class="category-items">- Gel douche</p>
+                      <p class="category-items">- Shampoing</p>
+                      <p class="category-items">- Deodorant</p>
+                      <p class="category-items">- Brosse a dent</p>
+                      <p class="category-items">- Dentifrice</p>
+                      <p class="category-items">- Rasoir</p>
+                  </div>
+              </div>
+              <div class="health">
+                  <a href="#" class="category-button">Sante</a>
+                  <div class="category-list-items">
+                      <p class="category-items">- Masques chirugicaux</p>
+                      <p class="category-items">- Gel hydroalcoolique</p>
+                      <p class="category-items">- Pansements</p>
+                      <p class="category-items">- Roll-on</p>
+                  </div>
+              </div>
+              <div class="janitorial-services">
+                  <a href="#" class="category-button">Conciergerie</a>
+                  <div class="category-list-items">
+                      <p class="category-items">- Cirage chaussure</p>
+                      <p class="category-items">- Eponge lustrante</p>
+                      <p class="category-items">- Parapluie</p>
+                      <p class="category-items">- Etui couture</p>
+                      <p class="category-items">- Lessive</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- ici derniere section -->
+    <div class="container-fluid" id="contact">
+      <div class="row">
+        <h1 class="text-center p-5">Sollicitez-nous !</h1>
+        <div class="ligne-contact"></div>
+        <p class="text-center p-5">Notre équipe répond à toutes vos questions et vous aide à sélectionner l’offre 
+          la plus adaptée.
+          </p>
+          <div class="contact-1 col-sm-3 col-md-6 d-flex justify-content-center align-items-center flex-column"></div>
+        <div class=" contact-2 col-sm-3 col-md-6 d-flex justify-content-center align-items-center flex-column"><img class="img-fluid mb-5" style="width: 250px;"src="img/PAGE CONTACT/Picto_contactordi.png" alt="ordinateur">
+        <p class="text-center"><b>par email :</b><br>ade@quatfrance.com</p>
+        </div>
+        <div class=" contact-3 col-sm-3 col-md-6 d-flex justify-content-center align-items-center flex-column"><img class="img-fluid mb-5" style="height: 190px;" src="img/PAGE CONTACT/Picto_contacttel.png" alt="téléphone">
+          <p class="text-center"><b>par téléphone :</b><br>01 53 61 28 35</p>
+        </div>
+        <div class=" contact-4 col-sm-3 col-md-6 d-flex justify-content-center align-items-center flex-column"></div>
+      </div>
+    </div>
+
+  <footer class="footer text-light pt-5 pb-4">
+    <div class=" footer container-fluid ">
+      <div class="row py-5">
+        <div class=" footer-logo col-sm-6 col-md-4 d-flex justify-content-center align-items-center ">
+          <div class="text-light "> <img src="img/LOGO_BLANC.png" alt="" style="width: 180px;">
+            <p class="text-light">&copy; Copyright 2021 - Adéquat </p>
+          </div>
+        </div>
+        <div class="footer-distri col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 justify-content-start">
+          <h3 class="ligne-1">Nos Distributeurs</h3>
+          <ul class="list-unstyled">
+            <li>AGATE - Distributeur de protections périodiques</li>
+            <li>AMBRE - Distributeur de produits d’hygiène </li>
+            <li>RUBIS - Distributeur de préservatifs</li>
+            <li>OPALE - Distributeur de couches</li>
+          </ul>
+        </div>
+        <div class="footer-trousse col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 justify-content-start">
+          <h3 class="ligne-2">Nos trousses</h3>
+          <ul class="list-unstyled">
+            <li>Trousse voyage femme</li>
+            <li>Trousse voyage homme</li>
+            <li>Trousse BIO</li>
+          </ul>
+        </div>
+        <div class="footer-ad col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 justify-content-start">
+        <h3 class="ligne-3">Adéquat </h3>
+        <ul class="list-unstyled">
+          <li>Qui sommes-nous ?</li>
+          <li>Nos engagements et valeurs</li>
+          <li>Contactez-nous</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
