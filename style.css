@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap%27%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap%27%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap%27%27');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
 
 #3E3E3D
 #22B1B2
@@ -24,13 +25,13 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
+  font-size: 35px;
   font-weight: 900;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 .img-fluid{
   display: flex;
@@ -86,18 +87,18 @@ a.nav-link {
 
 
 .picto {
-  height: 70px;
-  width: 80px;
+  height: 65px;
+  width: 95px;
 }
 .custom-two-background {
   background-color: #fdf5f0;
 }
 
 .ligne-us {
-  width: 180px;
-  border-bottom: 3px solid; 
-  display: flex;
-  justify-content: center;
+  width: 450px;
+  border-bottom: 3px solid;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .padding {
@@ -111,6 +112,10 @@ a.nav-link {
 
 .partenaires .img-fluid {
   width: 100%;
+}
+
+.text-left b {
+  font-weight: 600;
 }
 
 /* Page distri */
@@ -348,44 +353,19 @@ a.nav-link {
 }
 
 /* Page Contact */
-
-#contact {
-  height: 100vh;
-  width: 100%;
+.background {
   background-color: #fdf5f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.team p{
+  font-size: 25px;
 }
 
-#contact .ligne-contact {
-  border: 2px solid #000;
-  width: 500px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+.pt-10 {
+  padding-top: 100px;
 }
 
-.contact-1 {
-  width: 25%;
-}
-.contact-2 {
-  width: 25%;
-}
-.contact-3 {
-  width: 25%;
-}
-.contact-4 {
-  width: 25%;
-}
-
-#contact h1 {
-  font-weight:  900;
-  font-size: 50px;
-}
-
-#contact p {
-  font-size: 34px;
+.pb-10 {
+  padding-bottom: 100px;
 }
 
 
@@ -438,7 +418,36 @@ a.nav-link {
   font-size: 12px;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("img/PAGE ACCUEIL/KIT RASAGE.png");
 
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (max-width: 660px) {
+  .rasage h1{
+    font-size: 30px;
+  }
+
+  .ligne-us {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .rasage h1{
+    font-size: 25px;
+  }
+}
 
 
 
