@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap%27%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap%27%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@500;600&display=swap');
 
 #3E3E3D
 #22B1B2
@@ -372,25 +373,38 @@ a.nav-link {
 /* footer */
 
 .footer {
-  background-color: #3E3E3D;
-  width: 100%;
-  height: 344px;
+  background-color: #2e2e2d;
+}
+.box{
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip:padding-box;
 }
 
 .ligne-1 {
-  margin-bottom: 20px;
   width: 350px;
-  border-bottom: 3px solid; 
+  border-bottom: 2px solid;
+  margin-bottom: 17px;
+  padding-bottom: 7px;
 }
 
 .ligne-2 {
   width: 200px;
-  border-bottom: 3px solid; 
+  border-bottom: 2px solid;
+  margin-bottom: 17px;
+  padding-bottom: 7px;
 }
 
 .ligne-3 {
   width: 180px;
-  border-bottom: 3px solid; 
+  border-bottom: 2px solid;
+  margin-bottom: 17px;
+  padding-bottom: 7px;
+}
+
+.mt-10 {
+  padding-top: 110px;
+  padding-bottom: 100px
 }
 
 .footer-logo {
@@ -407,11 +421,20 @@ a.nav-link {
 }
 
 .footer h3 {
-  font-size: 18px; 
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
 }
 
 .footer  li {
   font-size: 12px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: poppins, sans-serif;
 }
 
 .footer p {
