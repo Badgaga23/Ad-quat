@@ -30,6 +30,12 @@ h1 {
   font-weight: 900;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -97,6 +103,15 @@ a.nav-link {
 
 .ligne-us {
   width: 450px;
+  border-bottom: 3px solid;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+
+.ligne-advantages{
+  width: 850px;
   border-bottom: 3px solid;
   margin: 0 auto;
   padding-top: 20px;
@@ -414,10 +429,6 @@ a.nav-link {
   padding-top: 10px;
 }
 
-.background-trousses {
-
-}
-
 .footer-logo {
   width: 25%;
 }
@@ -465,13 +476,48 @@ a.nav-link {
   background-size: cover;
 }
 
+#plane{
+  position: absolute;
+  left: 1000px;
+  bottom: -100px;
+}
+#flacon{
+  position: absolute;
+  top: 160px;
+  left: 500px;
+}
+#flacon img {
+  height: 160px;
+  width: 104px;
+}
+#recycle{
+  position: absolute;
+  top: 460px;
+  left: 150px;
+}
+#recycle img {
+  height: 129px;
+  width: 134px;
+}
+#trousse2{
+  position: absolute;
+  top: 370px;
+  left: 1150px;
+}
+#trousse2 img {
+  height: 143px;
+  width: 173px;
+}
+.relative{
+  position: relative;
+}
 
 @media (max-width: 660px) {
   .rasage h1{
     font-size: 30px;
   }
 
-  .ligne-us {
+  .ligne-us, .ligne-advantages {
     width: 100%;
   }
 }
