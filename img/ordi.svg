@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139.466" height="104.535" viewBox="0 0 139.466 104.535">
+  <g id="Calque_2" data-name="Calque 2" transform="translate(-272.117 -241.489)">
+    <g id="Groupe_568" data-name="Groupe 568">
+      <rect id="Rectangle_298" data-name="Rectangle 298" width="136.556" height="86.512" rx="8.765" transform="translate(274.027 242.489)" fill="none" stroke="#201f1f" stroke-linecap="round" stroke-width="2"/>
+      <path id="Tracé_282" data-name="Tracé 282" d="M408.084,345.024H274.707a1.589,1.589,0,0,1-1.59-1.588v-6.422a1.592,1.592,0,0,1,.466-1.125,1.932,1.932,0,0,1,1.123-.465c1.6-.153,53.872-.737,59.378-.8a10.216,10.216,0,0,0,14.444.328q.34-.324.649-.68c2.834.051,57.565,1.015,58.907,1.149a1.943,1.943,0,0,1,1.123.465,1.582,1.582,0,0,1,.465,1.125v6.421Z" fill="none" stroke="#201f1f" stroke-linecap="round" stroke-width="2"/>
+      <rect id="Rectangle_299" data-name="Rectangle 299" width="126.707" height="76.326" rx="5.066" transform="translate(279.102 247.733)" fill="none" stroke="#201f1f" stroke-linecap="round" stroke-width="2"/>
+      <g id="Groupe_567" data-name="Groupe 567">
+        <path id="Tracé_283" data-name="Tracé 283" d="M375.119,292.484l1.79,10.53,2.767-3.58,4.409-1.555Z" fill="none" stroke="#201f1f" stroke-width="2"/>
+        <line id="Ligne_24" data-name="Ligne 24" x1="2.296" y1="3.209" transform="translate(379.409 298.925)" fill="none" stroke="#201f1f" stroke-linecap="square" stroke-width="2"/>
+      </g>
+      <rect id="Rectangle_300" data-name="Rectangle 300" width="45.366" height="28.325" rx="4.535" transform="translate(319.772 270.512)" fill="none" stroke="#201f1f" stroke-width="2"/>
+      <path id="Tracé_284" data-name="Tracé 284" d="M320.273,273.863l22.915,18.622,21.449-18.622" fill="none" stroke="#201f1f" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

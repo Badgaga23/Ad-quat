@@ -421,12 +421,33 @@ a.nav-link {
   padding-top: 110px;
   padding-bottom: 100px
 }
+.pt-10 {
+  padding-top: 100px;
+}
 
 .line-advantages {
   width: 60%;
   border-bottom: 3px solid;
   margin: 0 auto;
   padding-top: 10px;
+}
+
+.ordi{
+  position: relative;
+  z-index: 0;
+  left: 30px;
+  bottom: -30px;
+  margin-left: -48px;
+  padding-bottom: 30px;
+}
+
+.telephone {
+  position: relative;
+  z-index: 0;
+  left: 45px;
+  bottom: -30px;
+  margin-left: -84px;
+  padding-bottom: 30px;
 }
 
 .footer-logo {
@@ -476,33 +497,40 @@ a.nav-link {
   background-size: cover;
 }
 
+.overflow{
+  margin-bottom: -400px;
+}
+
 #plane{
-  position: absolute;
-  left: 1000px;
-  bottom: -100px;
+  position: relative;
+  top: 200px;
+  left: 400px;
 }
 #flacon{
-  position: absolute;
-  top: 160px;
-  left: 500px;
+  position: relative;
+  z-index: -1;
+  top: -1000px;
+  left: -200px;
 }
 #flacon img {
   height: 160px;
   width: 104px;
 }
 #recycle{
-  position: absolute;
-  top: 460px;
-  left: 150px;
+  position: relative;
+  z-index: -1;
+  top: -550px;
+  left: -600px;
 }
 #recycle img {
   height: 129px;
   width: 134px;
 }
 #trousse2{
-  position: absolute;
-  top: 370px;
-  left: 1150px;
+  position: relative;
+  z-index: -1;
+  top: -500px;
+  left: 400px;
 }
 #trousse2 img {
   height: 143px;
