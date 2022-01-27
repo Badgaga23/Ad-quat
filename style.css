@@ -450,6 +450,55 @@ a.nav-link {
   padding-bottom: 30px;
 }
 
+.note {
+  position: relative;
+  z-index: 0;
+  left: 45px;
+  bottom: -30px;
+  margin-left: -75px;
+  padding-bottom: 30px;
+}
+
+.calque-trousse {
+  position: relative;
+  z-index: 0;
+  left: 45px;
+  bottom: -30px;
+  margin-left: -30px;
+  padding-bottom: 30px;
+}
+
+.img-trousse {
+  position: relative;
+  z-index: 0;
+  padding-right: 100px;
+}
+
+.calque-camion {
+  position: relative;
+  z-index: 0;
+  left: 45px;
+  bottom: -30px;
+  margin-left: -60px;
+  padding-bottom: 30px;
+}
+
+#fleche-one{
+  position: relative;
+  bottom: 540px;
+  left: -90px;
+}
+#fleche-two{
+  position: relative;
+  bottom: 540px;
+  left: 180px;
+}
+#fleche-three{
+  position: relative;
+  bottom: 140px;
+  left: -90px;
+}
+
 .footer-logo {
   width: 25%;
 }
@@ -509,7 +558,7 @@ a.nav-link {
 #flacon{
   position: relative;
   z-index: -1;
-  top: -1000px;
+  top: -900px;
   left: -200px;
 }
 #flacon img {
@@ -519,7 +568,7 @@ a.nav-link {
 #recycle{
   position: relative;
   z-index: -1;
-  top: -550px;
+  top: -500px;
   left: -600px;
 }
 #recycle img {
@@ -529,7 +578,7 @@ a.nav-link {
 #trousse2{
   position: relative;
   z-index: -1;
-  top: -500px;
+  top: -400px;
   left: 400px;
 }
 #trousse2 img {
@@ -540,9 +589,41 @@ a.nav-link {
   position: relative;
 }
 
+@media (max-width: 1400px) {
+  #fleche-one{
+    display: none;
+  }
+  #fleche-two{
+    display: none;
+  }
+  #fleche-three{
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+ #recycle {
+   display: none;
+ }
+
+  #flacon {
+    top: -800px;
+    left: -200px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  #flacon {
+    top: -850px;
+    left: -200px;
+  }
+}
+
 @media (max-width: 660px) {
   .rasage h1{
     font-size: 30px;
+
   }
 
   .ligne-us, .ligne-advantages {
