@@ -589,6 +589,21 @@ a.nav-link {
   position: relative;
 }
 
+#sous-titre-trait{
+  border: black 2px solid;
+  opacity: 1;
+  max-width: 400px;
+}
+
+#sous-titre-trait-charte{
+  border: black 1px solid;
+  opacity: 1;
+  max-width: 400px;
+}
+
+.homebutton-container a:hover{
+  color: black;
+}
 @media (max-width: 1400px) {
   #fleche-one{
     display: none;
