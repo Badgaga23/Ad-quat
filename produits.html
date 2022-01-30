@@ -26,7 +26,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="trousses.html">Nos Trousses</a></li>
-              <li><a class="dropdown-item" href="Produits.html">Produits Conditionnés</a></li>
+              <li><a class="dropdown-item" href="produits.html">Produits Conditionnés</a></li>
               <li><a class="dropdown-item" href="catalogue.html">Tout notre catalogue</a></li>
             </ul>
           <li class="nav-item">
@@ -42,17 +42,23 @@
         </ul>
       </div>
     </nav>
-    <div class=" container-fluid position-relative" >
-      <h1 class="position-absolute top-50 start-50 translate-middle texte-center">Produits conditionnés</h1>
-      <h1 class="position-absolute my-5 py-5 texte-center">pour nos distributeurs automatiques</h1>
-      <div class="btn d-flex justify-content-center position-absolute"> <a href="trousses.html" class="btn btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Mixte+</a></div> 
-      <div class="btn d-flex justify-content-center position-absolute"> <a href="trousses.html" class="btn btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Féminine</a></div> 
-      <div class="btn d-flex justify-content-center position-absolute"> <a href="trousses.html" class="btn btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Masculine</a></div> 
-      <img class="img-fluid" src="img/KIT DENTAIRE.jpg" alt="Kit_Rasage" >
-      </div> 
-    </div>
+    <div class="container-fluid">
+      <div class="row align-items-center hygiene-mixte bg-produit">
+          <div class="col d-flex justify-content-center p-0">
+              <div class="col-6 text-center my-auto">
+                  <h1>Produits conditionnés<br> pour nos distributeurs automatiques</h1>
+                  <button class="btn btn-custom1 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Mixte</button>
+                  <button class="btn btn-custom2 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Féminine</button>
+                  <button class="btn btn-custom3 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text">Hygiène Masculine</button>
+                </div>
+          </div>
+      </div>
+  </div>
+
+    
     <div class="container" >
-      <h1 class="text-center pt-5">Comment ça marche ?<hr></h1>
+      <h1 class="text-center pt-5">Comment ça marche ?</h1>
+      <div class="ligne-how"></div>
       <div class="row">
         <img class="img-fluid pt-5" src="img/PAGE TROUSSES/Illus_cmtçamarche.png" alt="">
           <div class="col-xl-4">
@@ -69,67 +75,77 @@
           </div>
       </div>
     </div>
-    <img class="img-fluid" src="img/PAGE TROUSSES/Bandeau_couleurs.png" alt="">
-    <h1 class="text-center pt-5">Nos gammes de mini-produits</h1><hr>
-    <span class="d-flex justify-content-center">
-    <a name="" id="" class="btn btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Mixte</a>
-    <a name="" id="" class="btn btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Féminine</a>
-    <a name="" id="" class="btn btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Masculine</a>
+    <img class="img-fluid pb-5" src="img/PAGE TROUSSES/Bandeau_couleurs.png" alt="">
+    <h1 class="text-center pt-5">Nos gammes de mini-produits</h1>
+    <div class="ligne-min"></div>
+    <span class="d-flex justify-content-evenly pt-5 pb-5">
+    <a class="btn btn-custom-1 btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Mixte</a>
+    <a class="btn btn-custom-2 btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Féminine</a>
+    <a class="btn btn-custom-3 btn-order text-dark border-plus-dark border-2 rounded-pill button-text" href="#" role="button">Hygiène Masculine</a>
   </span>
   <div class="container">
   <img class="img-fluid" src="img/PAGE TROUSSES/Illus_gammesproduits.png" alt="">
   <p class="text-center position-relative d-flex justify-content-center pt-5 pb-5">Nous contacter pour obtenir la liste non exhaustive de nos produits conditionnés.</p>
 </div>
-<div class="container" id="contact">
-  <div class="row">
-    <h1 class="text-center pt-3">Sollicitez-nous !</h1>
-    <hr>
-    <p class="text-center">Notre équipe répond à toutes vos questions et vous aide à sélectionner l’offre 
-      la plus adaptée.
+<div class="background team">
+  <div class="container pt-10 pb-10">
+      <h1 class="text-center">Sollicitez-nous !</h1>
+      <div class="ligne-us" ></div>
+      <p class="text-center p-5" id="team">Notre équipe répond à toutes vos questions et vous aide à sélectionner l’offre la plus adaptée.
       </p>
-    <div class="col-sm-6 d-flex justify-content-center align-items-end flex-column"><img class="img-fluid mb-5" style="width: 150px;"src="img/PAGE CONTACT/Picto_contactordi.png" alt="ordinateur">
-    <p class="text-center">par email <br><a href="ade@quatfrance.com">ade@quatfrance.com</a></p>
-    </div>
-    <div class="col-sm-6 "><img class="img-fluid" style="width: 80px;" src="img/PAGE CONTACT/Picto_contacttel.png" alt="téléphone">
-      <p class="text-center">par téléphone <br><a href="0153612835">01 53 61 28 35</a></p>
-    </div>
+
+      <div class="row justify-content-center">
+          <div class="col-sm-4">
+              <img class="img-fluid mb-5 mx-auto" style="width: 250px;"src="img/PAGE CONTACT/Picto_contactordi.png" alt="ordinateur">
+              <p class="text-center pb-5"><b>par email :</b><br>ade@quatfrance.com</p>
+          </div>
+          <div class="col-sm-4">
+              <img class="img-fluid mb-5 mx-auto" style="height: 190px;" src="img/PAGE CONTACT/Picto_contacttel.png" alt="téléphone">
+              <p class="text-center"><b>par téléphone :</b><br>01 53 61 28 35</p>
+          </div>
+      </div>
   </div>
 </div>
-<footer class="footer text-light">
-  <div class="container-xl">
-    <div class="row">
-      <div class="col-xl-3">
-        <div class="logo text-light fs-1"> <img src="img/LOGO_BLANC.png" style="width: 100px;" alt="">
-        </div>
-        <p class="text-light">&copy; Copyright 2021 - Adéquat </p>
+<footer>
+  <div class="footer text-light">
+      <div class="container-fluid">
+          <div class="row mt-10">
+              <div class="col-12 col-md-12 col-xl-2">
+                  <div class="text-light d-flex  flex-column justify-content-center align-items-center" style="height: 100%">
+                      <img src="img/LOGO_BLANC.png" alt="" style="width: 180px;">
+                      <p class="text-light">&copy; Copyright 2021 - Adéquat </p>
+                  </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                  <h3 class="ligne-1">Nos Distributeurs</h3>
+                  <ul class="list-unstyled">
+                      <li><a href="">AGATE - Distributeur de protections périodiques</a></li>
+                      <li><a href="">AMBRE - Distributeur de produits d’hygiène </a></li>
+                      <li><a href="">RUBIS - Distributeur de préservatifs</a></li>
+                      <li><a href="">OPALE - Distributeur de couches</a></li>
+                  </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-xl-3 offset-md-1">
+                  <h3 class="ligne-2">Nos trousses</h3>
+                  <ul class="list-unstyled">
+                      <li><a href="">Trousse voyage femme</a></li>
+                      <li><a href="">Trousse voyage homme</a></li>
+                      <li><a href="">Trousse BIO</a></li>
+                  </ul>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-xl-3">
+                  <h3 class="ligne-3">Adéquat </h3>
+                  <ul class="list-unstyled">
+                      <li><a href="">Qui sommes-nous ?</a></li>
+                      <li><a href="">Nos engagements et valeurs</a></li>
+                      <li><a href="">Contactez-nous</a></li>
+                  </ul>
+              </div>
+          </div>
       </div>
-      <div class="col-xl-3">
-        <h3>Nos Distributeurs</h3>
-        <ul>
-          <il>AGATE - Distributeur de protections périodiques</il>
-          <il>AMBRE - Distributeur de produits d’hygiène </il>
-          <il>RUBIS - Distributeur de préservatifs</il>
-          <il>OPALE - Distributeur de couches</il>
-        </ul>
-      </div>
-      <div class="col-xl-3">
-        <h3>Nos trousses</h3>
-        <ul>
-          <li>Trousse voyage femme</li>
-          <li>Trousse voyage homme</li>
-          <li>Trousse BIO</li>
-        </ul>
-      </div>
-      <div class="col-xl-3"></div>
-      <h3>Adéquat </h3>
-      <ul>
-        <li>Qui sommes-nous ?</li>
-        <li>Nos engagements et valeurs</li>
-        <li>Contactez-nous</li>
-      </ul>
-    </div>
   </div>
 </footer>
+
 
     
 

@@ -368,6 +368,105 @@ a.nav-link {
   padding: 0;
   font-size: 28px;
 }
+/* Page Produits Conditionnés */
+
+.btn-custom1:hover {
+  background-color: #E0AF91;
+}
+.btn-custom2:hover {
+  background-color: #F7C9CE;
+}
+.btn-custom3:hover {
+  background-color: #22B1B2
+}
+
+.ligne-how{
+  width: 950px;
+  border-bottom: 3px solid;
+  margin: auto;
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+}
+.ligne-min{
+  width: 950px;
+  border-bottom: 3px solid;
+  margin: auto;
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+}
+
+
+
+.btn-custom-1{
+  background-color: #E0AF91;
+}
+.btn-custom-2{
+  background-color: #F7C9CE;
+}
+.btn-custom-3{
+  background-color: #22B1B2
+}
+
+.hygiene-mixte {
+  background: url("./img/KIT DENTAIRE.jpg") no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hygiene-mixte h1 .btn{
+  position: absolute; 
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.hygiene-femal {
+  background: url("./img/serviettes-hygienique.jpg") no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hygiene-femal h1 .btn{
+  position: absolute; 
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.hygiene-male {
+  background: url("./img/KIT\ RASAGE.jpg") no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hygiene-male h1 .btn{
+  position: absolute; 
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/PAGE-ACCUEIL/KIT dentaire.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 /* Page Contact */
 .background {
@@ -536,7 +635,7 @@ a.nav-link {
 
 .bg {
   /* The image used */
-  background-image: url("img/PAGE-ACCUEIL/KIT RASAGE.png");
+  background-image: url("img/PAGE-ACCUEIL/KIT rasage.png");
 
   /* Full height */
   height: 100vh;
