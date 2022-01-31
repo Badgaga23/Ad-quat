@@ -704,6 +704,16 @@ a.nav-link {
 .homebutton-container a:hover{
   color: black;
 }
+
+.text-small {
+  font-size: 16px
+}
+
+.underline-precarite{
+  opacity: 1;
+  border: 1px solid black;
+  max-width: 500px;
+}
 @media (max-width: 1400px) {
   #fleche-one{
     display: none;
