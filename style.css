@@ -714,6 +714,15 @@ a.nav-link {
   border: 1px solid black;
   max-width: 500px;
 }
+
+.column-14 p {
+  font-size: 14px;
+}
+
+.normal-list li {
+  list-style: none;
+  font-family: Raleway, sans-serif;
+}
 @media (max-width: 1400px) {
   #fleche-one{
     display: none;
