@@ -723,6 +723,34 @@ a.nav-link {
   list-style: none;
   font-family: Raleway, sans-serif;
 }
+
+.lingettes{
+  position: relative;
+  top: -400px;
+  left: 200px;
+}
+
+.coton {
+  position: relative;
+  top: -280px;
+  left: 70%
+}
+
+.serviettes{
+  position: relative;
+  top: -600px;
+  left: 70%
+}
+
+.recycle{
+  position: relative;
+  top: -450px;
+  left: 190px;
+}
+
+.our-mission{
+  margin-bottom: -200px;
+}
 @media (max-width: 1400px) {
   #fleche-one{
     display: none;
