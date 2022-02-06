@@ -407,15 +407,6 @@ a.nav-link {
   background-color: #22B1B2
 }
 
-.hygiene-mixte {
-  background: url("./img/KIT DENTAIRE.jpg") no-repeat center;
-  background-size: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .hygiene-mixte h1 .btn{
   position: absolute; 
   top: 50%;
@@ -454,10 +445,30 @@ a.nav-link {
 }
 
 .bg {
-  /* The image used */
-  background-image: url("img/PAGE-ACCUEIL/KIT dentaire.png");
 
   /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kit-dentaire {
+  /* The image used */
+  background-image: url("img/PAGE-ACCUEIL/KIT dentaire.png");
+}
+
+.serviettes-hygieniques {
+  background-image: url("img/PAGE-ACCUEIL/serviettes hygieniques.png");
+}
+
+.kit-rasage {
+  background-image: url("img/PAGE-ACCUEIL/kit rasage.png");
+}
+
+.bg-produit {
   height: 100vh;
 
   /* Center and scale the image nicely */
@@ -750,6 +761,42 @@ a.nav-link {
 
 .our-mission{
   margin-bottom: -200px;
+}
+
+.show{
+  display: block
+}
+
+#ambre{
+  display: none;
+}
+
+#rubis{
+  display: none;
+}
+
+#agate{
+  display: none;
+}
+
+#nacre{
+  display: none;
+}
+
+#opale{
+  display: none;
+}
+
+.pointer:hover{
+  cursor: pointer;
+}
+
+.link a{
+  text-decoration: none;
+  color: black;
+}
+.anchor {
+  scroll-margin-top: 50vh
 }
 @media (max-width: 1400px) {
   #fleche-one{
