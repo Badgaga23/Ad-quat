@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 /* Pge container */
 
-.main {
+/* .main {
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
@@ -221,4 +221,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */ */

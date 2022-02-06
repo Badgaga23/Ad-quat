@@ -77,7 +77,7 @@ a.nav-link {
 }
 
 .rasage {
-  background: url("./img/KIT RASAGE.jpg") no-repeat center;
+  background: url("./img/kit_rasage.jpg") no-repeat center;
   background-size: 100%;
   height: 100vh;
   display: flex;
@@ -429,7 +429,7 @@ a.nav-link {
   transform: translate(-50%,-50%);
 }
 .hygiene-male {
-  background: url("./img/KIT\ RASAGE.jpg") no-repeat center;
+  background: url("./img/kit_rasage.jpg") no-repeat center;
   background-size: 100%;
   height: 100vh;
   display: flex;
@@ -457,15 +457,15 @@ a.nav-link {
 
 .kit-dentaire {
   /* The image used */
-  background-image: url("img/PAGE-ACCUEIL/KIT dentaire.png");
+  background-image: url("img/page_accueil/kit_dentaire.png");
 }
 
 .serviettes-hygieniques {
-  background-image: url("img/PAGE-ACCUEIL/serviettes hygieniques.png");
+  background-image: url("img/page_accueil/serviettes_hygienique.png");
 }
 
 .kit-rasage {
-  background-image: url("img/PAGE-ACCUEIL/kit rasage.png");
+  background-image: url("img/page_accueil/kit_rasage.png");
 }
 
 .bg-produit {
@@ -646,7 +646,7 @@ a.nav-link {
 
 .bg {
   /* The image used */
-  background-image: url("img/PAGE-ACCUEIL/KIT rasage.png");
+  background-image: url("img/page_accueil/kit_rasage.png");
 
   /* Full height */
   height: 100vh;
