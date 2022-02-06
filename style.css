@@ -798,6 +798,10 @@ a.nav-link {
 .anchor {
   scroll-margin-top: 50vh
 }
+
+.anchor li{
+  list-style: none;
+}
 @media (max-width: 1400px) {
   #fleche-one{
     display: none;
