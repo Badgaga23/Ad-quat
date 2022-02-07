@@ -825,11 +825,38 @@ a.nav-link {
   }
 }
 
+@media (max-width: 1200px){
+  .lingettes{
+    left: 0;
+  }
+  .coton {
+    left: 80%;
+  }
+  .serviettes{
+    left: 80%;
+  }
+  .recycle{
+    left: 0;
+  }
+}
+
 @media (max-width: 800px) {
 
   #flacon {
     top: -850px;
     left: -200px;
+  }
+  .lingettes{
+    left: -100px;
+  }
+  .coton {
+    left: 90%;
+  }
+  .serviettes{
+    left: 90%;
+  }
+  .recycle{
+    left: -100px;
   }
 }
 
@@ -841,6 +868,21 @@ a.nav-link {
 
   .ligne-us, .ligne-advantages {
     width: 100%;
+  }
+  .lingettes{
+    display: none;
+  }
+  .coton {
+    display: none;
+  }
+  .serviettes{
+    display: none;
+  }
+  .recycle{
+    display: none;
+  }
+  .our-mission{
+    margin-bottom: 0;
   }
 }
 
