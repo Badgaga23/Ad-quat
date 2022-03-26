@@ -368,6 +368,23 @@ a.nav-link {
   transform: translate(-50%,-50%);
 }
 
+/* Page Valeur  */
+
+.ligne-valeur {
+  width: 550px;
+  border-bottom: 4px solid;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.charte-container {
+  background-color: #FFF1E8;
+}
+
+.charte-container p {
+  font-weight: 600;
+}
+
 .bg {
 
   /* Full height */
