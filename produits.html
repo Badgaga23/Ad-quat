@@ -10,7 +10,7 @@
   <title>Produits conditionnés</title>
 </head>
 <body>
-  <a href="index.html"><img class="img-fluid" id="logo" src="img/LOGO/png/logo-v1.png" alt="logo-adequat" style="width: 359px; height: 164px"></a>
+  <a href="index.html"><img class="img-fluid" id="logo" src="img/logo/svg/adequat_logo.svg" alt="logo-adequat" style="width: 359px; height: 164px"></a>
   <nav class="navbar navbar-expand-lg fs-5">
       <button class="navbar-toggler navbar-dark bg-dark text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <a class="nav-link text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Produits
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <ul class="dropdown-menu navbar" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="trousses.html">Nos Trousses</a></li>
               <li><a class="dropdown-item" href="produits.html">Produits Conditionnés</a></li>
               <li><a class="dropdown-item" href="catalogue.html">Tout notre catalogue</a></li>
@@ -47,9 +47,9 @@
           <div class="col d-flex justify-content-center p-0">
               <div class="col-6 text-center my-auto">
                   <h1>Produits conditionnés<br> pour nos distributeurs automatiques</h1>
-                  <button class="btn btn-custom1 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text" onclick="changeBg('kit-dentaire')">Hygiène Mixte</button>
-                  <button class="btn btn-custom2 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text" onclick="changeBg('serviettes-hygieniques')">Hygiène Féminine</button>
-                  <button class="btn btn-custom3 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text" onclick="changeBg('kit-rasage')">Hygiène Masculine</button>
+                  <button class="btn btn-custom1 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text m-3 btn-product" onclick="changeBg('kit-dentaire')">Hygiène Mixte</button>
+                  <button class="btn btn-custom2 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text m-3 btn-product" onclick="changeBg('serviettes-hygieniques')">Hygiène Féminine</button>
+                  <button class="btn btn-custom3 btn-outline text-dark border-plus-dark border-2 rounded-pill button-text m-3 btn-product" onclick="changeBg('kit-rasage')">Hygiène Masculine</button>
                 </div>
           </div>
       </div>
@@ -82,7 +82,14 @@
       </a>
     </div>
     
-    <img class="img-fluid pt-5 pb-5" src="img/page_trousse/bandeau_couleurs.png" alt="">
+    <div class="bandeau">
+      <div class="color1"></div>
+      <div class="color2"></div>
+      <div class="color3"></div>
+      <div class="color4"></div>
+      <div class="color5"></div>
+    </div>
+    <div class="gamme-product pt-5 pb-5">
     <h1 class="text-center pt-5">Nos gammes de mini-produits</h1>
     <div class="ligne-min"></div>
     <span class="d-flex justify-content-evenly pt-5 pb-5">
@@ -92,7 +99,8 @@
   </span>
   <div class="container">
   <img class="img-fluid" src="img/page_trousse/illus_gammesproduits.png" alt="">
-  <p class="text-center position-relative d-flex justify-content-center pt-5 pb-5">Nous contacter pour obtenir la liste non exhaustive de nos produits conditionnés.</p>
+  <p class="text-center position-relative d-flex justify-content-center pt-5 pb-5 fs-4">Nous contacter pour obtenir la liste non exhaustive de nos produits conditionnés.</p>
+</div>
 </div>
 <div class="background team">
   <div class="container pt-10 pb-10">
@@ -100,14 +108,13 @@
       <div class="ligne-us" ></div>
       <p class="text-center p-5" id="team">Notre équipe répond à toutes vos questions et vous aide à sélectionner l’offre la plus adaptée.
       </p>
-
       <div class="row justify-content-center">
           <div class="col-sm-4">
-              <img class="img-fluid mb-5 mx-auto" style="width: 250px;"src="img/page_contact/picto_contactordi.png" alt="ordinateur">
+              <img class="img-fluid mb-5 mx-auto" style="width: 250px;"src="img/page_contact/ordi.svg" alt="ordinateur">
               <p class="text-center pb-5"><b>par email :</b><br>ade@quatfrance.com</p>
           </div>
           <div class="col-sm-4">
-              <img class="img-fluid mb-5 mx-auto" style="height: 190px;" src="img/page_contact/picto_contacttel.png" alt="téléphone">
+              <img class="img-fluid mb-5 mx-auto" style="height: 190px;" src="img/page_contact/telephone.svg" alt="téléphone">
               <p class="text-center"><b>par téléphone :</b><br>01 53 61 28 35</p>
           </div>
       </div>
