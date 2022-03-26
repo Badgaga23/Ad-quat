@@ -741,7 +741,7 @@ a.nav-link {
 
 #plane{
   position: relative;
-  top: 200px;
+  top: 275px;
   left: 400px;
 }
 #flacon{
@@ -800,7 +800,7 @@ a.nav-link {
 
 .underline-precarite{
   opacity: 1;
-  border: 1px solid black;
+  border: 2px solid black;
   max-width: 500px;
 }
 
