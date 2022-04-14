@@ -38,8 +38,8 @@ h3 {
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: px;
 }
+
 .img-fluid{
   display: flex;
   justify-content: center;
@@ -120,6 +120,7 @@ a.nav-link {
 .padding {
   padding-left: 100px;
 }
+
 .partenaire {
   background: transparent linear-gradient(293deg, #49ECED 0%, #35BABA 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -890,7 +891,6 @@ a.nav-link {
   margin: 50px 0;
   margin-right: 100px;
   position: relative;
-  overflow: hidden;
 }
 
 .timeline-container:before { /*This is the line down the middle*/
@@ -915,6 +915,91 @@ a.nav-link {
   -moz-box-pack: justify;
   justify-content: space-between;
   clear: both;
+}
+
+.custom-two-background__first {
+  --bs-gutter-x: 0;
+}
+
+.catalogue-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.catalogue-section__img-left {
+  width: 200px;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+.catalogue-section__img-right {
+  width: 200px;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.catalogue-section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 140px
+}
+
+.catalogue-section__header p {
+  margin-top: 50px;
+  width: 60%;
+}
+
+.catalogue-section__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.catalogue-section__list ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0 50px 50px 50px;
+}
+
+.catalogue-section__list__hygiene h3 {
+  background-color: #FE9A9B ;
+  margin-bottom: 50px;
+  padding: 15px 50px;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+
+.catalogue-section__list__sante h3 {
+  background-color: #E0AF91 ;
+  margin-bottom: 50px;
+  padding: 15px 50px;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+.catalogue-section__list__conciergerie h3 {
+  background-color: #3ED1D2 ;
+  margin-bottom: 50px;
+  padding: 15px 50px;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+
+@media (max-width: 820px) {
+  .catalogue-section__img-left {
+    opacity: 0.3;
+  }
+  
+  .catalogue-section__img-right {
+    opacity: 0.3;
+  }
 }
 
 @media (max-width: 1200px) {
