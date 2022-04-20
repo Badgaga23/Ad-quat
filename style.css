@@ -414,6 +414,107 @@ a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* Page Precarite */
+
+.container-precarite{
+  background: url("img/page_precarite/photo-1.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.precarite-lutte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.precarite-lutte__article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.precarite-lutte__article h4 {
+  width: 300px;
+  color: red;
+  text-align: end;
+}
+
+.precarite-lutte__article p {
+  text-align: start;
+  margin-left: 30px;
+  width: 800px;
+  font-weight: 500;
+}
+
+
+.text-precarite {
+  background: #FFA8B850;
+  position: absolute;
+  top: 272px;
+  left: 138px;
+  width: 960px;
+  padding: 20px;
+  margin: auto;
+  color: #fdf5f0;
+}
+
+.text-precarite span {
+  color: red;
+  font-weight: 800;
+}
+
+.text-precarite .auteur {
+  color: #fdf5f0;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.lign-precarite {
+  width: 55vw;
+  border-bottom: 3px solid;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.picto-precarite {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.picto-precarite-dur {
+  width: 300px;
+  margin: 30px;
+}
+
+.picto-precarite-prati {
+  width: 300px;
+  margin: 30px;
+}
+
+.picto-precarite-secu {
+  width: 300px;
+  margin: 30px;
+}
+
+.our-mission {
+  background-color: #fdf5f0;
+}
+
+.number-mission {
+  font-size:3.5rem;
+}
+
+.legal {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.legal h1 {
+  text-align: center;
+}
 
 
 
@@ -646,6 +747,7 @@ a.nav-link {
 }
 
 #plane{
+  width:100%;
   position: relative;
   top: 275px;
   left: 400px;
