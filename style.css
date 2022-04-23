@@ -13,6 +13,7 @@
 #FFC6A3 */
 
 
+
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
@@ -34,6 +35,7 @@ h3 {
 
 p {
   font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
 }
 
 .img-fluid{
@@ -289,7 +291,7 @@ a.nav-link {
 }
 
 
-/* Page Produits Conditionnés */
+/* Page Produits ConditionnÃ©s */
 
 .btn-custom1:hover {
   background-color: #FFC6A3;
@@ -593,14 +595,14 @@ a.nav-link {
 }
 
 .ligne-1 {
-  width: 350px;
+  width: 90%;
   border-bottom: 2px solid;
   margin-bottom: 17px;
   padding-bottom: 7px;
 }
 
 .ligne-2 {
-  width: 200px;
+  width: 60%;
   border-bottom: 2px solid;
   margin-bottom: 17px;
   padding-bottom: 7px;
@@ -746,42 +748,61 @@ a.nav-link {
   margin-bottom: -400px;
 }
 
-#plane{
-  width:100%;
-  position: relative;
-  top: 275px;
-  left: 400px;
+.advantages {
+  /*position: relative;
+  /*height: 120vh;*/
+  /*background:  red;
+  margin:  10vh 0;*/
+  margin: 0;
 }
-#flacon{
-  position: relative;
-  z-index: -1;
-  top: -900px;
-  left: -200px;
+
+.miniplace {
+  position:  relative;
 }
-#flacon img {
+
+.miniatures {
+  position: absolute;
+  height:  120%;
+  margin-top: -15vh;
+  display:  grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+#flacon {
   height: 160px;
   width: 104px;
+  grid-row: 2/3;
+  grid-column: 5/6;
+  margin-top: 70px;
 }
-#recycle{
-  position: relative;
-  z-index: -1;
-  top: -500px;
-  left: -600px;
-}
-#recycle img {
+
+#recycle {
   height: 129px;
   width: 134px;
+  grid-row: 7/8;
+  grid-column: 3/4;
+  margin-left: 20px;
 }
-#trousse2{
-  position: relative;
-  z-index: -1;
-  top: -400px;
-  left: 400px;
+#plane {
+  margin-top: 200px;
+  grid-row: 10/11;
+  grid-column: 10/11;
 }
-#trousse2 img {
+
+#trousse2 {
   height: 143px;
   width: 173px;
+  grid-row: 7/8;
+  grid-column: 10/11;
 }
+
+@media (max-width: 1000px) {
+  .miniatures {
+    display: none;
+  }
+}
+
 .relative{
   position: relative;
 }
