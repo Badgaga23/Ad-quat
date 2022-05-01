@@ -757,7 +757,7 @@ a.nav-link {
 }
 
 .miniplace {
-  position:  relative;
+  position: relative;
 }
 
 .miniatures {
@@ -1132,28 +1132,28 @@ a.nav-link {
 }
 
 .marker {
-  width: 50px;
-  height: 50px;
-  border-radius:100% 2% 46% 53% / 50% 0% 100% 51% ;
+  width: 45px;
+  height: 45px;
+  border-radius:100% 0% 100% 100% / 100% 100% 100% 100% ;
   transform:rotate(45deg);
-  background: #4DD0E1;
+  background: #3ED1D2;
   margin-top: 10px;
   z-index: 9999
 
 }
 .timeline-content {
-  width: 95%;
+  width: 100%;
   padding:15px;
 }
 .timeline-content h3 {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 25px;
+  font-size: 1.6rem;
   font-weight: 800
 }
 
 .timeline-content p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.5em;
 }
 @media screen and (max-width: 768px) {
