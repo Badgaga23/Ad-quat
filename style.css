@@ -291,7 +291,7 @@ a.nav-link {
 }
 
 
-/* Page Produits ConditionnÃ©s */
+/* Page Produits Conditionnès */
 
 .btn-custom1:hover {
   background-color: #FFC6A3;
@@ -304,14 +304,14 @@ a.nav-link {
 }
 
 .ligne-how{
-  width: 950px;
+  width: 60vw;
   border-bottom: 3px solid;
   margin: auto;
   margin-bottom: 17px;
   padding-bottom: 17px;
 }
 .ligne-min{
-  width: 950px;
+  width: 60vw;
   border-bottom: 3px solid;
   margin: auto;
   margin-bottom: 17px;
@@ -424,7 +424,6 @@ a.nav-link {
   height: 100vh;
   width: 100%;
 }
-
 .precarite-lutte {
   display: flex;
   flex-direction: column;
@@ -438,16 +437,19 @@ a.nav-link {
 }
 
 .precarite-lutte__article h4 {
+  height: 100%;
   width: 300px;
   color: red;
   text-align: end;
 }
 
 .precarite-lutte__article p {
+  height: 100%;
   text-align: start;
   margin-left: 30px;
   width: 800px;
   font-weight: 500;
+  margin-top: 0;
 }
 
 
@@ -568,6 +570,24 @@ a.nav-link {
 
 .legal h1 {
   text-align: center;
+}
+
+@media (max-width: 1122px) {
+  .text-precarite {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin: 0;
+  }
+
+  .container-precarite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  
+  }
 }
 
 
