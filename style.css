@@ -370,7 +370,7 @@ a.nav-link {
 /* Page Valeur  */
 
 .ligne-valeur {
-  width: 550px;
+  width: 35vw;
   border-bottom: 4px solid;
   margin: 0 auto;
   padding-top: 20px;
@@ -441,6 +441,7 @@ a.nav-link {
   width: 300px;
   color: red;
   text-align: end;
+  
 }
 
 .precarite-lutte__article p {
@@ -555,6 +556,13 @@ a.nav-link {
 
 .number-mission {
   font-size:3.5rem;
+}
+
+@media (max-width:1000px){
+  .precarite-lutte {
+    flex-wrap: wrap;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1000px){
@@ -1201,7 +1209,7 @@ a.nav-link {
 }
 
 .marker {
-  width: 45px;
+  width: 50px;
   height: 45px;
   border-radius:100% 0% 100% 100% / 100% 100% 100% 100% ;
   transform:rotate(45deg);
